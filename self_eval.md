@@ -1,4 +1,7 @@
 # Self-Evaluation
 
 - Reflect on your learning and work today. What are you most proud of?
+    - I'm most proud of the fact that I allowed myself to try different things. Instead of running `ruby` only when I was sure that I had it perfect, I allowed myself to run it many times to see how different code was coming out.
+    - I'm also proud that I just tried something when it came to the last exercise - it was almost like I was in a flow state or on autopilot when I finally got it and almost couldn't remember how I got to the answer. The thing that lead me there was remembering, "Just start with something", and so I started putting snippets of code down, testing those things, and then eventually finding my way towards the answer.
 - What is the power of using methods in our applications?
+    - The power of using methods is that you are able to reuse them, create your own methods for applying to different variables, apply them to variables instead of just object, and also link them. The reusability of methods is what makes them so powerful - instead of having to write several lines of code to get a sum or check if something is even, we can simply use a built in method in ruby to evaluate that.
