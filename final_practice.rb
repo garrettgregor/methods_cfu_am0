@@ -28,14 +28,14 @@ puts greeting2
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 
 def custom_greeting(name, adjective)
-    return puts "Hello, #{name}! I am so #{adjective} to meet you!"
+    "Hello, #{name}! I am so #{adjective} to meet you!"
 end
 
 macey = custom_greeting("Macey", "excited")
 friend = custom_greeting("Friend", "intrigued")
 
-puts macey
-puts friend 
+p macey
+p friend 
 
 
 # What is the return value of your method?
@@ -51,14 +51,14 @@ puts friend
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
 def greet_person(first,middle,last)
-    return puts "My name is #{first} #{middle} #{last}."
+    "My name is #{first} #{middle} #{last}."
 end
 
 garrett = greet_person("Garrett","Kendall","Gregor")
 gpt = greet_person("Chat", "GPT", "3")
 
-puts garrett
-puts gpt
+p garrett
+p gpt
 
 # What is the return value of your method?
     # => My name is Garrett Kendall Gregor.
@@ -115,7 +115,7 @@ puts five_squared
 def check_stock(inventory,product)
     if inventory >= 4
         puts "#{product} is stocked"
-    elsif inventory <= 1
+    elsif inventory <= 3 && inventory > 0
         puts "#{product} - running LOW"
     else
         puts "#{product} - OUT of stock"
